@@ -1,4 +1,4 @@
-  body {
+ body {
         font-family: 'Montserrat', sans-serif;
         scroll-behavior: smooth;
     }
@@ -161,3 +161,651 @@
         z-index: 10;
     }
 </style>
+<!-- Header -->
+<header class="bg-black text-white">
+    <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+        <div class="flex items-center">
+            <i class="fas fa-phone-alt mr-2"></i>
+            <span class="text-sm">(11) 93949-6506</span>
+        </div>
+        <div class="flex space-x-4">
+            <a href="#" class="text-sm hover:text-red-500 transition"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-sm hover:text-red-500 transition"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/5511939496506" class="text-sm hover:text-red-500 transition"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- Navigation -->
+<nav id="navbar" class="bg-gray-900 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+        <a href="#" class="flex items-center">
+            <img src="https://i.imgur.com/HYNhwUg.png" alt="Transfer Executivo SP Logo" class="logo-img">
+        </a>
+        <div class="hidden md:flex items-center space-x-6">
+            <a href="#" class="hover:text-red-500 transition">Home</a>
+            <a href="#services" class="hover:text-red-500 transition">Serviços</a>
+            <a href="#about" class="hover:text-red-500 transition">Sobre Nós</a>
+            <a href="#contact" class="hover:text-red-500 transition">Contato</a>
+            <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" class="quote-btn">
+                <i class="fas fa-dollar-sign mr-2"></i>
+                Solicitar Cotação
+            </a>
+        </div>
+        <button class="md:hidden focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- Mobile Menu (Hidden by default) -->
+<div class="hidden bg-gray-900 text-white py-4 px-4 md:hidden">
+    <a href="#" class="block py-2 hover:text-red-500 transition">Home</a>
+    <a href="#services" class="block py-2 hover:text-red-500 transition">Serviços</a>
+    <a href="#about" class="block py-2 hover:text-red-500 transition">Sobre Nós</a>
+    <a href="#contact" class="block py-2 hover:text-red-500 transition">Contato</a>
+    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" class="block py-2 hover:text-red-500 transition flex items-center">
+        <i class="fas fa-dollar-sign mr-2"></i>
+        Solicitar Cotação
+    </a>
+</div>
+
+<!-- Hero Section -->
+<section class="hero-section h-screen flex items-center">
+    <div class="container mx-auto px-4 text-center text-white">
+        <div class="feature-badge mb-4">
+            <i class="fas fa-shield-alt mr-2"></i>
+            <span>Veículos Blindados Disponíveis</span>
+        </div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">Transporte Executivo em São Paulo</h1>
+        <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">Conforto, segurança e pontualidade para suas viagens corporativas e eventos especiais.</p>
+        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+            <a href="#services" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+                Nossos Serviços
+            </a>
+            <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" class="bg-white hover:bg-gray-100 text-gray-900 font-bold py-3 px-8 rounded-lg transition">
+                Solicitar Orçamento
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Nossos Serviços</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Oferecemos uma variedade de serviços de transporte executivo para atender às suas necessidades específicas, incluindo opções com veículos blindados para máxima segurança.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Service 1 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-plane-arrival text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Transfer Aeroporto</h3>
+                    <p class="text-gray-600 mb-4">Transporte confortável e pontual para chegadas e partidas nos aeroportos de São Paulo. Disponível com veículos blindados para sua segurança.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Transfer%20Aeroporto" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-building text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Eventos e Convenções</h3>
+                    <p class="text-gray-600 mb-4">Transporte para eventos corporativos, feiras e convenções com atendimento personalizado. Veículos blindados disponíveis.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Eventos%20e%20Conven%C3%A7%C3%B5es" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-glass-cheers text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Casamentos e Formaturas</h3>
+                    <p class="text-gray-600 mb-4">Transporte elegante e sofisticado para os momentos mais importantes da sua vida. Segurança extra com veículos blindados.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Casamentos%20e%20Formaturas" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 4 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-route text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Viagens Intermunicipais</h3>
+                    <p class="text-gray-600 mb-4">Transporte para viagens entre cidades com conforto e segurança para você e sua equipe. Veículos blindados disponíveis.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Viagens%20Intermunicipais" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 5 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-map-marked-alt text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Passeios e City Tour</h3>
+                    <p class="text-gray-600 mb-4">Conheça São Paulo e região com conforto e um motorista que conhece os melhores lugares. Opção de veículos blindados.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Passeios%20e%20City%20Tour" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Service 6 -->
+            <div class="service-card bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="h-48 bg-gray-200 relative">
+                    <div class="armored-car-badge">
+                        <i class="fas fa-shield-alt mr-1"></i>
+                        <span>Opção Blindada</span>
+                    </div>
+                    <div class="service-icon-container">
+                        <i class="fas fa-briefcase text-5xl text-white"></i>
+                    </div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Transporte Corporativo</h3>
+                    <p class="text-gray-600 mb-4">Soluções de transporte para executivos e equipes com atendimento personalizado. Frota com veículos blindados.</p>
+                    <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20Transporte%20Corporativo" class="text-red-500 font-semibold hover:text-red-600 flex items-center">
+                        Solicitar Orçamento <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-12 text-center">
+            <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o%20para%20ve%C3%ADculos%20blindados" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition inline-flex items-center">
+                <i class="fas fa-shield-alt mr-2"></i>
+                Solicitar Veículo Blindado
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <div class="feature-badge mb-4">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    <span>Segurança Reforçada</span>
+                </div>
+                <h2 class="text-3xl font-bold mb-6">Sobre a Transfer Executivo SP</h2>
+                <p class="text-gray-600 mb-4">Somos uma empresa especializada em transporte executivo em São Paulo e região, oferecendo serviços de alta qualidade para clientes corporativos e particulares.</p>
+                <p class="text-gray-600 mb-4">Nossa missão é proporcionar uma experiência de transporte segura, confortável e pontual, superando as expectativas dos nossos clientes em cada viagem.</p>
+                <p class="text-gray-600 mb-6">Contamos com uma equipe de motoristas profissionais, treinados e com ampla experiência, além de uma frota de veículos modernos e bem conservados, incluindo opções de veículos blindados para garantir o máximo de conforto e segurança.</p>
+                
+                <div class="grid grid-cols-2 gap-4 mb-6">
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-red-500 mr-2"></i>
+                        <span>Pontualidade</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-red-500 mr-2"></i>
+                        <span>Segurança</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-red-500 mr-2"></i>
+                        <span>Conforto</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-red-500 mr-2"></i>
+                        <span>Profissionalismo</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-check-circle text-red-500 mr-2"></i>
+                        <span>Atendimento 24h</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-shield-alt text-red-500 mr-2"></i>
+                        <span>Veículos Blindados</span>
+                    </div>
+                </div>
+                
+                <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition inline-block">
+                    Solicitar Orçamento
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <div class="about-illustration h-80 md:h-96 rounded-lg shadow-lg">
+                    <div class="about-illustration-content h-full flex flex-col justify-center items-center text-white">
+                        <div class="relative mb-6">
+                            <!-- Carro executivo preto -->
+                            <svg class="w-48 h-24" viewBox="0 0 640 512" fill="currentColor">
+                                <path d="M544 192h-16L419.22 56.02A64.025 64.025 0 0 0 369.24 32H155.33c-26.17 0-49.7 15.93-59.42 40.23L48 194.26C20.44 201.4 0 226.21 0 256v112c0 8.84 7.16 16 16 16h48c0 53.02 42.98 96 96 96s96-42.98 96-96h128c0 53.02 42.98 96 96 96s96-42.98 96-96h48c8.84 0 16-7.16 16-16v-80c0-53.02-42.98-96-96-96zM160 432c-26.47 0-48-21.53-48-48s21.53-48 48-48 48 21.53 48 48-21.53 48-48 48zm72-240H116.93l38.4-96H232v96zm48 0V96h89.24l76.8 96H280zm200 240c-26.47 0-48-21.53-48-48s21.53-48 48-48 48 21.53 48 48-21.53 48-48 48z"></path>
+                            </svg>
+                            
+                            <!-- Ícone de blindagem -->
+                            <div class="absolute top-0 right-12 transform -translate-y-2">
+                                <i class="fas fa-shield-alt text-red-500 text-xl"></i>
+                            </div>
+                            
+                            <!-- Motorista executivo (à esquerda do carro) -->
+                            <div class="absolute left-0 bottom-0 transform -translate-x-6 translate-y-2">
+                                <div class="flex flex-col items-center">
+                                    <i class="fas fa-user-tie text-3xl"></i>
+                                    <div class="w-6 h-10 bg-gray-700 mt-1 rounded-t-full"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Cliente (à direita do carro) -->
+                            <div class="absolute right-0 bottom-0 transform translate-x-6 translate-y-2">
+                                <div class="flex flex-col items-center">
+                                    <i class="fas fa-user text-3xl"></i>
+                                    <div class="w-6 h-10 bg-gray-300 mt-1 rounded-t-full"></div>
+                                </div>
+                            </div>
+                            
+                            <!-- Mala (entre o motorista e o carro) -->
+                            <div class="absolute left-6 bottom-0 transform translate-y-8">
+                                <i class="fas fa-suitcase text-2xl"></i>
+                            </div>
+                        </div>
+                        
+                        <h3 class="text-2xl font-bold mb-2">Atendimento Personalizado</h3>
+                        <p class="text-gray-300 mb-3">Nossos motoristas estão sempre prontos para ajudar com sua bagagem e garantir uma experiência confortável.</p>
+                        <div class="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-semibold flex items-center">
+                            <i class="fas fa-shield-alt mr-1"></i>
+                            <span>Veículos blindados disponíveis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">O que nossos clientes dizem</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">A satisfação dos nossos clientes é nossa maior prioridade. Confira alguns depoimentos.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6">"Excelente serviço! Motorista pontual, educado e carro muito confortável. A opção de veículo blindado trouxe mais tranquilidade para nossa viagem noturna. Recomendo para quem precisa de um transporte executivo de qualidade em São Paulo."</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-gray-500"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-bold">Ricardo Oliveira</h4>
+                        <p class="text-sm text-gray-500">Diretor Comercial</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6">"Contratei o serviço para um evento corporativo e fiquei muito satisfeita. Atendimento impecável, veículos limpos e confortáveis. A opção de veículos blindados para nossos executivos foi um diferencial importante. Certamente voltarei a contratar."</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-gray-500"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-bold">Ana Carolina Silva</h4>
+                        <p class="text-sm text-gray-500">Gerente de Eventos</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                <div class="flex items-center mb-4">
+                    <div class="text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                <p class="text-gray-600 mb-6">"Serviço de primeira qualidade! Utilizei para transfer do aeroporto e foi perfeito. Motorista me aguardou mesmo com o atraso do voo. O veículo blindado me deu mais segurança chegando de madrugada. Super recomendo!"</p>
+                <div class="flex items-center">
+                    <div class="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center">
+                        <i class="fas fa-user text-gray-500"></i>
+                    </div>
+                    <div class="ml-4">
+                        <h4 class="font-bold">Marcelo Santos</h4>
+                        <p class="text-sm text-gray-500">Empresário</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-20 bg-gray-900 text-white">
+    <div class="container mx-auto px-4 text-center">
+        <div class="inline-flex items-center bg-red-500 px-4 py-2 rounded-full mb-6">
+            <i class="fas fa-shield-alt mr-2"></i>
+            <span class="font-semibold">Segurança Garantida</span>
+        </div>
+        <h2 class="text-3xl font-bold mb-6">Pronto para solicitar seu orçamento?</h2>
+        <p class="text-xl mb-10 max-w-2xl mx-auto">Entre em contato conosco agora mesmo e garanta um transporte executivo de qualidade para sua próxima viagem ou evento. Pergunte sobre nossas opções de veículos blindados.</p>
+        <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-4">
+            <a href="https://wa.me/5511939496506?text=Vim%20do%20site%20e%20gostaria%20de%20solicitar%20uma%20cota%C3%A7%C3%A3o" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+                Solicitar Orçamento
+            </a>
+            <a href="#contact" class="bg-transparent border-2 border-white hover:bg-white hover:text-gray-900 text-white font-bold py-3 px-8 rounded-lg transition">
+                Fale Conosco
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-100">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl font-bold mb-4">Entre em Contato</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">Estamos à disposição para atender às suas necessidades de transporte executivo, incluindo serviços com veículos blindados.</p>
+        </div>
+        
+        <div class="flex flex-col md:flex-row">
+            <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                <form id="contact-form">
+                    <div class="mb-6">
+                        <label for="contact-name" class="block text-gray-700 font-medium mb-2">Nome</label>
+                        <input type="text" id="contact-name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="contact-email" class="block text-gray-700 font-medium mb-2">E-mail</label>
+                        <input type="email" id="contact-email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="contact-phone" class="block text-gray-700 font-medium mb-2">Telefone</label>
+                        <input type="tel" id="contact-phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                    </div>
+                    <div class="mb-6">
+                        <label for="service-type" class="block text-gray-700 font-medium mb-2">Tipo de Serviço</label>
+                        <select id="service-type" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500">
+                            <option value="">Selecione um serviço</option>
+                            <option value="transfer-aeroporto">Transfer Aeroporto</option>
+                            <option value="eventos">Eventos e Convenções</option>
+                            <option value="casamentos">Casamentos e Formaturas</option>
+                            <option value="viagens">Viagens Intermunicipais</option>
+                            <option value="city-tour">Passeios e City Tour</option>
+                            <option value="corporativo">Transporte Corporativo</option>
+                        </select>
+                    </div>
+                    <div class="mb-6">
+                        <div class="flex items-center">
+                            <input type="checkbox" id="armored-vehicle" class="mr-2">
+                            <label for="armored-vehicle" class="text-gray-700">Tenho interesse em veículo blindado</label>
+                        </div>
+                    </div>
+                    <div class="mb-6">
+                        <label for="contact-message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                        <textarea id="contact-message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-red-500"></textarea>
+                    </div>
+                    <button type="submit" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-8 rounded-lg transition">
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+            <div class="md:w-1/2">
+                <div class="bg-white p-8 rounded-lg h-full shadow-md">
+                    <h3 class="text-xl font-bold mb-6">Informações de Contato</h3>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="bg-red-500 text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Telefone</h4>
+                                <p class="text-gray-600">(11) 93949-6506</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-red-500 text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">E-mail</h4>
+                                <p class="text-gray-600">vitorhmgomes@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-red-500 text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Endereço</h4>
+                                <p class="text-gray-600">São Paulo - SP</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-red-500 text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Horário de Atendimento</h4>
+                                <p class="text-gray-600">24 horas, 7 dias por semana</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-red-500 text-white p-3 rounded-full mr-4">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Veículos Blindados</h4>
+                                <p class="text-gray-600">Disponíveis para todos os serviços</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="font-bold mb-4">Redes Sociais</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="bg-gray-200 hover:bg-red-500 hover:text-white text-gray-700 p-3 rounded-full transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="bg-gray-200 hover:bg-red-500 hover:text-white text-gray-700 p-3 rounded-full transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://wa.me/5511939496506" class="bg-gray-200 hover:bg-red-500 hover:text-white text-gray-700 p-3 rounded-full transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col md:flex-row justify-between">
+            <div class="mb-6 md:mb-0">
+                <div class="flex items-center mb-4">
+                    <img src="https://i.imgur.com/HYNhwUg.png" alt="Transfer Executivo SP Logo" class="logo-img mr-2">
+                </div>
+                <p class="text-gray-400 max-w-xs">Transporte executivo com conforto, segurança e pontualidade em São Paulo e região. Veículos blindados disponíveis para sua segurança.</p>
+            </div>
+            <div class="mb-6 md:mb-0">
+                <h4 class="font-bold mb-4">Links Rápidos</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-red-500 transition">Home</a></li>
+                    <li><a href="#services" class="text-gray-400 hover:text-red-500 transition">Serviços</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-red-500 transition">Sobre Nós</a></li>
+                    <li><a href="#contact" class="text-gray-400 hover:text-red-500 transition">Contato</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-4">Contato</h4>
+                <ul class="space-y-2">
+                    <li class="flex items-center">
+                        <i class="fas fa-phone-alt text-red-500 mr-2"></i>
+                        <span class="text-gray-400">(11) 93949-6506</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-envelope text-red-500 mr-2"></i>
+                        <span class="text-gray-400">vitorhmgomes@gmail.com</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-map-marker-alt text-red-500 mr-2"></i>
+                        <span class="text-gray-400">São Paulo - SP</span>
+                    </li>
+                    <li class="flex items-center">
+                        <i class="fas fa-shield-alt text-red-500 mr-2"></i>
+                        <span class="text-gray-400">Veículos Blindados</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-6 text-center text-gray-400">
+            <p>&copy; 2023 Transfer Executivo SP. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal de Sucesso (inicialmente oculto) -->
+<div id="success-modal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[1000] hidden">
+    <div class="bg-white rounded-lg p-8 max-w-md w-full">
+        <div class="text-center">
+            <div class="bg-green-100 text-green-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fas fa-check-circle text-3xl"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Mensagem Enviada!</h3>
+            <p class="text-gray-600 mb-6">Recebemos sua mensagem. Entraremos em contato em breve.</p>
+            <button id="close-modal" class="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-6 rounded transition">
+                Fechar
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 100) {
+            navbar.classList.add('navbar-fixed');
+        } else {
+            navbar.classList.remove('navbar-fixed');
+        }
+    });
+
+    // Mobile menu toggle
+    document.querySelector('.md\\:hidden').addEventListener('click', function() {
+        const mobileMenu = document.querySelector('.hidden.bg-gray-900.text-white.py-4.px-4');
+        mobileMenu.classList.toggle('hidden');
+    });
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            const targetId = this.getAttribute('href');
+            if (targetId === '#') return;
+            
+            const targetElement = document.querySelector(targetId);
+            if (targetElement) {
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+                
+                // Close mobile menu if open
+                const mobileMenu = document.querySelector('.hidden.bg-gray-900.text-white.py-4.px-4');
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            }
+        });
+    });
+
+    // Contact form submission
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        document.getElementById('success-modal').classList.remove('hidden');
+        document.getElementById('success-modal').querySelector('h3').textContent = 'Mensagem Enviada!';
+        document.getElementById('success-modal').querySelector('p').textContent = 'Recebemos sua mensagem. Entraremos em contato em breve.';
+        this.reset();
+    });
+    
+    // Close modal
+    document.getElementById('close-modal').addEventListener('click', function() {
+        document.getElementById('success-modal').classList.add('hidden');
+    });
+    
+    // Close modal when clicking outside
+    document.getElementById('success-modal').addEventListener('click', function(e) {
+        if (e.target === this) {
+            this.classList.add('hidden');
+        }
+    });
+</script>
