@@ -1,0 +1,11 @@
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://transferbrasilia.com.br/wp-content/uploads/transferbrasilia/2024/02/transfer-4-scaled.webp');
+    background-size: cover;
+    background-position: center;
+}
+...
