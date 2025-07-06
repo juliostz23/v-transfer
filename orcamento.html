@@ -1,21 +1,58 @@
-
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Solicitar Orçamento</title>
-</head>
-<body>
-    <h1>Solicite seu Orçamento</h1>
-    <form action="https://formsubmit.co/vitorhmgomes@gmail.com" method="POST">
-        <input type="hidden" name="_captcha" value="false">
-        <label>Nome:</label><br>
-        <input type="text" name="nome" required><br>
-        <label>Email:</label><br>
-        <input type="email" name="email" required><br>
-        <label>Mensagem:</label><br>
-        <textarea name="mensagem"></textarea><br>
-        <button type="submit">Enviar</button>
-    </form>
-</body>
-</html>
+ body {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f9fafb;
+    }
+    
+    .logo-img {
+        height: 50px;
+        width: auto;
+    }
+    
+    .form-container {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://transferbrasilia.com.br/wp-content/uploads/transferbrasilia/2024/02/transfer-4-scaled.webp');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .form-card {
+        backdrop-filter: blur(5px);
+        background-color: rgba(255, 255, 255, 0.95);
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    }
+    
+    .input-field {
+        transition: all 0.3s ease;
+    }
+    
+    .input-field:focus {
+        border-color: #ef4444;
+        box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.2);
+    }
+    
+    .submit-btn {
+        background-color: #ef4444;
+        color: white;
+        font-weight: 600;
+        padding: 0.75rem 1.5rem;
+        border-radius: 0.5rem;
+        transition: background-color 0.15s ease-in-out;
+    }
+    
+    .submit-btn:hover {
+        background-color: #dc2626;
+    }
+    
+    .feature-badge {
+        display: inline-flex;
+        align-items: center;
+        background-color: rgba(239, 68, 68, 0.1);
+        color: #ef4444;
+        padding: 0.25rem 0.75rem;
+        border-radius: 9999px;
+        font-weight: 600;
+        font-size: 0.875rem;
+        margin-bottom: 1rem;
+    }
+</style>
